@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:acctive {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  margin-top: 3rem;
+  height: auto;
+}
+
+.chessblock {
+  width: 35rem;
+  height: 35rem;
+  margin: 0 auto;
+  border: 24px double rgb(194, 183, 188);
+}
+
+.chessblock__line {
+  height: 12.5%;
+  min-width: 100%;
+  display: table;
+}
+
+.cell {
+  width: 12.5%;
+  height: 100%;
+  justify-content: baseline;
+  display: table-cell;
+}
+
+.image {
+  width: 100%;
+}
+
+.button-point {
+  display: table;
+  width: 100%;
+}
+
+.btn {
+  margin: 10% 0%;
+  margin-bottom: 0;
+  width: 50%;
+  display: inline-table;
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+  border: 5px solid black;
+  font-size: 20px;
+}
+
+.restart {
+  background: rgb(99, 99, 161);
+  border-left: 2.5px solid black;
+}
+
+.change {
+  background: rgb(145, 145, 73);
+  border-right: 2.5px solid black;
+}
