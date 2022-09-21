@@ -2,4 +2,4 @@
 
 Шахматы на чистом Js, HTML, CSS
 
-![image](https://user-images.githubusercontent.com/37026894/191486278-de260ae0-b634-4995-a709-2ea7781d6972.png)
+![image](https://user-images.githubusercontent.com/37026894/191486514-b4d512f5-343f-499d-b0e0-052213166629.png)
